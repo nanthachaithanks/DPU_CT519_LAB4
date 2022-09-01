@@ -1,0 +1,3 @@
+FROM mysql:5.6
+
+ADD ./mysql-backup/my_data_645162010011.sql /docker-entrypoint-initdb.d/my_data_645162010011.sql:ro
